@@ -8,7 +8,7 @@ on:
 jobs:
   release-project:
     name: Release build to Github Releases
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: build-project
     steps:
       - name: Download build
